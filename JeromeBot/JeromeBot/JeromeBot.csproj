@@ -126,8 +126,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TextHandler.cs" />
     <Compile Include="CommandHandler.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="Modules\Misc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities.cs" />
@@ -136,6 +138,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="SystemLang\alerts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Writings\augustineconfessions.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
